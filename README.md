@@ -1,159 +1,23 @@
-# redteam
 
-**Ageis CyberWorks Red Team Tool**
 
-A simple port scanning utility demonstrating red team cybersecurity capabilities.
 
----
+## 🌐 Socials:
+ [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ali-elkhouly-1877312ba/) 
 
-## Table of Contents
+# 💻 Tech Stack:
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white) ![Adobe Lightroom](https://img.shields.io/badge/Adobe%20Lightroom-31A8FF.svg?style=for-the-badge&logo=Adobe%20Lightroom&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white) ![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![AssemblyScript](https://img.shields.io/badge/assembly%20script-%23000000.svg?style=for-the-badge&logo=assemblyscript&logoColor=white) ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Adobe Premiere Pro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF.svg?style=for-the-badge&logo=Adobe%20Premiere%20Pro&logoColor=white) ![Adobe Illustrator](https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=for-the-badge&logo=adobe%20illustrator&logoColor=white)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=Aliahmed2005266&theme=dark&hide_border=false&include_all_commits=false&count_private=true)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=Aliahmed2005266&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Aliahmed2005266&theme=dark&hide_border=false&include_all_commits=false&count_private=true&layout=compact)
 
-1. [About](#about)
-2. [Features](#features)
-3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Compiling from Source](#compiling-from-source)
-6. [License](#license)
-7. [Contact](#contact)
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=Aliahmed2005266&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
----
-
-## About
-
-The `redteam` tool is a utility developed by **Ageis CyberWorks Red Team** for educational and authorized security testing purposes. This tool provides basic port scanning functionality that can be used to identify open ports on a target host, which is a fundamental technique in both penetration testing and network security assessment.
-
-**Made by:** Ageis CyberWorks Red Team  
-**Repository:** https://github.com/ageis-cyberworks/redteam  
-**Version:** 1.0.0
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 ---
+[![](https://visitcount.itsvg.in/api?id=Aliahmed2005266&icon=0&color=0)](https://visitcount.itsvg.in)
 
-## Features
-
-- Scan specified port ranges on target hosts
-- Display scan progress and results
-- Configurable start and end port numbers
-- Simple command-line interface
-- lightweight and fast implementation
-
-**Disclaimer:** This tool is intended for authorized security testing only. Use only on systems you own or have explicit permission to test.
-
----
-
-## Installation
-
-### Pre-compiled Binary
-
-1. Download the pre-compiled binary from the [Releases](https://github.com/ageis-cyberworks/redteam/releases) page
-2. Make it executable: `chmod +x redteam`
-3. Move to your PATH: `sudo mv redteam /usr/local/bin/`
-
-### From Source
-
-See [Compiling from Source](#compiling-from-source) section.
-
----
-
-## Usage
-
-```bash
-# Basic usage - scan target on default ports 1-1024
-./redteam example.com
-
-# Scan specified port range
-./redteam example.com 1 100
-
-# Scan with just start port
-./redteam example.com 80
-
-# Common port ranges
-./redteam example.com 20 25     # FTP range
-./redteam example.com 80 443    # HTTP/HTTPS
-./redteam example.com 22        # SSH only
-```
-
-### Arguments
-
-| Argument | Description | Default |
-|----------|-------------|---------|
-| `target_host` | IP address or hostname to scan | Required |
-| `start_port` | Starting port number for scan | 1 |
-| `end_port` | Ending port number for scan | 1024 |
-
-### Examples
-
-```bash
-# Scan common ports (1-1024)
-./redteam 192.168.1.1
-
-# Scan top 100 ports
-./redteam 192.168.1.1 1 100
-
-# Scan SSH port only
-./redteam 192.168.1.1 22 22
-```
-
----
-
-## Compiling from Source
-
-### Prerequisites
-
-- GCC or compatible C compiler
-- Standard C library
-
-### Build Instructions
-
-```bash
-# Clone the repository
-git clone https://github.com/ageis-cyberworks/redteam.git
-
-# Navigate to the project directory
-cd redteam
-
-# Compile the source code
-gcc -o redteam redteam.c
-
-# Make the binary executable
-chmod +x redteam
-
-# (Optional) Move to your PATH
-sudo mv redteam /usr/local/bin/
-```
-
-### Verify Installation
-
-```bash
-redteam --help
-# Should display usage information
-```
-
----
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-**Copyright (c) 2024 Ageis CyberWorks Red Team**
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
----
-
-## Contact
-
-- **Organization:** Ageis CyberWorks Red Team
-- **GitHub:** https://github.com/ageis-cyberworks
-- **Repository:** https://github.com/ageis-cyberworks/redteam
-
----
-
-## Acknowledgments
-
-- Inspired by classic network security tools
-- Developed with educational purposes in mind
-- Part of the Ageis CyberWorks open-source initiative
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
